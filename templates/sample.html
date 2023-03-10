@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample</title>
+    <style>
+        h1{
+            background-color: black;
+            border: 2px solid blue;
+            width: fit-content;
+            padding: 0px 10px;
+        }
+        .container{
+            position: relative;
+            left: 500px;
+            top: 100px;
+            display: block;
+            background-color: azure;
+            box-shadow: 5px 5px 10px rgb(70, 58, 58);
+            width: fit-content;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        .container h3{
+            font-size: 30px;
+            text-align: center;
+        }
+        .article{
+            display: block;
+        }
+        .email,.pass{
+            padding: 10px;
+        }
+        .email input{
+            margin-left: 15px;
+        }
+        input{
+            font-size: 20px;
+        }
+        label{
+            font-weight: bold;
+        }
+        #btn{
+            background-color: bisque;
+            color: darkgray;
+            position: relative;
+            left: 100px;
+            margin: 10px;
+            padding: 5px 20px;
+            border-radius: 0px 20px 0px 20px;
+        }
+    </style>
+</head>
+<body>
+    
+    <marquee behavior="alternate" direction="left" ><h1 style="color:aqua">THIS IS THE FIRST PROJECT USING HTML PAGES IN DJANGO</h1></marquee>
+    <div class="container">
+        <h3>SIGN IN</h3>
+        <div class="article">
+            <div class="email">
+            <label for="mail">E-Mail</label>
+            <input type="email" id="mail"></div>
+            <div class="pass">
+            <label for="pass">Password</label>
+            <input type="password" name="" id="pass"></div>
+            <input type="button" value="SUBMIT" id="btn">
+        </div>
+    </div>
+</body>
+</html>
